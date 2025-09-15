@@ -32,6 +32,18 @@ body{
     color: #f0efef;
     font-size: xx-large;
     border: 1px solid black;
+
+      backdrop-filter: blur(30px);
+    border-radius: 2rem;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+      box-shadow: 0 0 10px 7px rgba(241, 240, 240, 0.2);
+
+      /* New fearcher */
+       backdrop-filter: blur(15px);
+    /* -webkit-backdrop-filter: blur(10px); For Safari support */
+    background:transparent ; /* Make background slightly transparent */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
 }
    
    /* *{
